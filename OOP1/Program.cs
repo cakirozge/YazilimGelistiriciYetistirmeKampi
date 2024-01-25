@@ -21,8 +21,17 @@ namespace OOP1
 
             ProductManager productManager = new ProductManager();
             productManager.Add(product1);
-             
+            productManager.Update(product1);    
+
+
+
 
         }
     }
 }
+
+//HATIRLATICI !
+//productManager.Topla2(3, 6);
+
+//int toplamaSonucu = productManager.Topla(3, 6);
+//Console.WriteLine("Toplama sonucu: " + toplamaSonucu*2);
