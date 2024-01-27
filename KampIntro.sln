@@ -17,9 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferansTipler", "De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", "{A369F423-4FA4-489E-9E84-1DD7B980D7C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koleksiyonlar", "Koleksiyonlar\Koleksiyonlar.csproj", "{9367AF0A-1A71-44D0-ADA0-E6E249FED03F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Koleksiyonlar", "Koleksiyonlar\Koleksiyonlar.csproj", "{9367AF0A-1A71-44D0-ADA0-E6E249FED03F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{664F432A-2C63-4B9E-B244-4DE099E8571C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{664F432A-2C63-4B9E-B244-4DE099E8571C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceTypes", "ReferenceTypes\ReferenceTypes.csproj", "{32C234E8-0940-448D-8C25-DD9F82A6EBD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{D1EF2025-8379-45EB-9660-DB25A873A27A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{664F432A-2C63-4B9E-B244-4DE099E8571C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{664F432A-2C63-4B9E-B244-4DE099E8571C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{664F432A-2C63-4B9E-B244-4DE099E8571C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32C234E8-0940-448D-8C25-DD9F82A6EBD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C234E8-0940-448D-8C25-DD9F82A6EBD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C234E8-0940-448D-8C25-DD9F82A6EBD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C234E8-0940-448D-8C25-DD9F82A6EBD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1EF2025-8379-45EB-9660-DB25A873A27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1EF2025-8379-45EB-9660-DB25A873A27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1EF2025-8379-45EB-9660-DB25A873A27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1EF2025-8379-45EB-9660-DB25A873A27A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
