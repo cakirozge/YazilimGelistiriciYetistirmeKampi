@@ -20,6 +20,7 @@ namespace Generics
             Console.WriteLine(sehirler.Count);
 
             MyList<string> sehirler2 = new MyList<string>();    //generic değil bu şekilde tip argumanlarıyla kullanılamaz demektedir. Bu ne demek?
+
             
             sehirler2.Add("İstanbul"); //hangi tipi kullandıysam generic class olduğu için tip ona dönüşür.
             sehirler2.Add("İstanbul");
@@ -28,6 +29,9 @@ namespace Generics
             sehirler2.Add("İstanbul");
             sehirler2.Add("İstanbul");
             Console.WriteLine(sehirler2.Count); //0 verdi array yani eleman sayısını 1 arttırmamız gerekir. newlememiz gerek 
+
+            Dictionary<int, string> Ogrenci = new Dictionary<int, string>();
+            Ogrenci.Add(12456, "Özge Çakır");
         }
     }
 
@@ -62,4 +66,6 @@ namespace Generics
         }
 
     }
+
+ 
 }
